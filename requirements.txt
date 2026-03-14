@@ -1,0 +1,14 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+scipy
+statsmodels
+jupyter
+notebook
+jupyterlab
+ipykernel
+ipywidgets
+plotly
+openpyxl
+pymongo

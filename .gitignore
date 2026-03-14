@@ -1,0 +1,83 @@
+# =========================
+# OS / editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# Conda
+.conda/
+conda-meta/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Logs / temp
+# =========================
+*.log
+*.tmp
+*.temp
+
+# =========================
+# Test / cache
+# =========================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# =========================
+# Data files pesados
+# =========================
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.h5
+*.db
+*.sqlite
+*.zip
+
+# Permitir placeholders y archivos de ejemplo pequeños
+!*.gitkeep
+
+# =========================
+# Model artifacts
+# =========================
+*.pkl
+*.joblib
+*.pickle
+*.onnx
+
+# =========================
+# Coverage
+# =========================
+.coverage
+htmlcov/

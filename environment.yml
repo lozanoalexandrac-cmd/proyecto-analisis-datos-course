@@ -1,0 +1,21 @@
+name: proyecto-analisis-datos
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - scipy
+  - statsmodels
+  - jupyter
+  - notebook
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+  - openpyxl
+  - pymongo
+  - pip
+  - pip:
+      - plotly
